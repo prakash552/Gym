@@ -1,0 +1,23 @@
+{
+  "name": "fitgenix-gym",
+  "version": "1.0.0",
+  "description": "Fitgenix Gym - Premium Fitness Website",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "start-server": "cd server && npm run dev",
+    "start-client": "cd client && npm start",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client"
+  },
+  "keywords": ["gym", "fitness", "mern"],
+  "author": "Fitgenix",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
