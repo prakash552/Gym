@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Fitgenix</h3>
+            <img src="images/logo.png" className="img-fluid" alt="" />
             <p className="footer-subtitle">Powered by Abhishek Thakur</p>
             <p className="footer-description">
               Vasai-Virar's First & Largest Luxury Gym. Transform your body, transform your life.

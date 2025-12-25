@@ -1,11 +1,11 @@
 .services-page {
-  margin-top: 70px;
+  margin-top: 50px;
   background: var(--bg-primary);
 }
 
 .services-hero {
-  background: var(--gradient-primary);
-  padding: 120px 0 80px;
+  background: var(--bg-secondary);
+  padding: 120px 0 60px;
   text-align: center;
   color: var(--text-heading);
   position: relative;
@@ -19,7 +19,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(217, 114, 50, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(217, 114, 50, 0.15) 0%, transparent 100%);
   z-index: 0;
 }
 
@@ -29,9 +29,10 @@
 }
 
 .services-hero-content h1 {
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 900;
   margin-bottom: 15px;
+  color: var(--accent-primary);
 }
 
 .services-hero-content p {
@@ -58,8 +59,12 @@
 .service-detail-image {
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: var(--shadow-lg);
   border: 1px solid rgba(217, 114, 50, 0.2);
+}
+.service-detail-image:hover {
+  border-color: var(--accent-primary);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
 }
 
 .service-detail-image img {
@@ -141,14 +146,14 @@
   padding: 40px 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: var(--shadow-md);
+ 
   transition: all 0.3s ease;
   border: 1px solid rgba(217, 114, 50, 0.2);
 }
 
 .facility-item:hover {
   transform: translateY(-5px);
-  box-shadow: var(--shadow-lg), var(--glow-primary);
+  box-shadow:  var(--glow-primary);
   border-color: var(--accent-primary);
 }
 

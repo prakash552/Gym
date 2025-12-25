@@ -119,7 +119,6 @@ const ModelViewer = ({ modelPath, title, description, className = '' }) => {
               toneMapping: 1003, // ACESFilmic
               outputEncoding: 3001 // sRGBEncoding
             }}
-            onError={handleCanvasError}
             style={{ width: '100%', height: '100%' }}
           >
             <Suspense fallback={<Loading />}>
@@ -140,7 +139,6 @@ const ModelViewer = ({ modelPath, title, description, className = '' }) => {
               <Model 
                 url={modelPath} 
                 scale={1}
-                onError={handleModelError}
               />
               
               {/* Smooth Orbit Controls */}

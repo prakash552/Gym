@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import ModelViewer from '../components/ModelViewer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Equipment.css';
@@ -13,7 +12,7 @@ const Equipment = () => {
     {
       title: 'Butterfly Machine',
       description: 'Premium chest and shoulder isolation machine for targeted muscle development',
-      modelPath: '/3d_/butterfly-machine/source/Butterfly Machine.glb',
+      imageSrc: '/images/strength-training.png',
       features: [
         'Chest isolation',
         'Shoulder development',
@@ -24,7 +23,7 @@ const Equipment = () => {
     {
       title: 'Seated Row Machine',
       description: 'Advanced back and bicep training machine with adjustable settings',
-      modelPath: '/3d_/seated-row-machine/source/Seated Row Machine.glb',
+      imageSrc: '/images/training-equipment.png',
       features: [
         'Back strengthening',
         'Bicep development',
@@ -35,14 +34,13 @@ const Equipment = () => {
     {
       title: 'Seated Leg Curl Trainer',
       description: 'Professional leg curl machine for hamstring and calf development',
-      modelPath: '/3d_/seated-leg-curl-trainer/source/Seated_Leg_Curl_FBX.fbx',
+      imageSrc: '/images/crossfit-equipment.png',
       features: [
         'Hamstring focus',
         'Calf development',
         'Seated position',
         'Precision training'
-      ],
-      note: 'Note: FBX format - may require conversion to GLB for optimal web performance'
+      ]
     }
   ];
 
@@ -52,7 +50,7 @@ const Equipment = () => {
         <div className="container">
           <div className="equipment-hero-content" data-aos="fade-up">
             <h1>Our Premium Equipment</h1>
-            <p>Explore our state-of-the-art fitness machines in 3D</p>
+            <p>Explore our state-of-the-art fitness machines</p>
           </div>
         </div>
       </section>
@@ -61,20 +59,13 @@ const Equipment = () => {
         <div className="container">
           <div className="section-title" data-aos="fade-up">
             <h2>44+ Advanced Machines</h2>
-            <p>Interactive 3D models of our premium fitness equipment</p>
+            <p>Images of our premium fitness equipment</p>
           </div>
 
           <div className="equipment-grid">
             {equipment.map((item, index) => (
               <div key={index} className="equipment-card" data-aos="fade-up" data-aos-delay={index * 150}>
-                <ModelViewer
-                  modelPath={item.modelPath}
-                  title={item.title}
-                  description={item.description}
-                />
-                {item.note && (
-                  <p className="equipment-note">{item.note}</p>
-                )}
+                <img src={item.imageSrc} alt={item.title} className="equipment-image" />
                 <div className="equipment-features">
                   <h4>Key Features:</h4>
                   <ul>

@@ -30,9 +30,7 @@
   --gradient-glass: linear-gradient(135deg, rgba(217, 114, 50, 0.1) 0%, rgba(230, 138, 66, 0.05) 100%);
   
   /* Luxury Shadows & Glows */
-  --shadow-sm: 0 4px 14px rgba(217, 114, 50, 0.12);
-  --shadow-md: 0 8px 25px rgba(217, 114, 50, 0.18);
-  --shadow-lg: 0 16px 40px rgba(217, 114, 50, 0.22);
+  
   --shadow-xl: 0 24px 60px rgba(217, 114, 50, 0.25);
   --glow-primary: 0 0 20px rgba(217, 114, 50, 0.4);
   --glow-orange: 0 0 30px rgba(217, 114, 50, 0.6);

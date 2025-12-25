@@ -1,10 +1,10 @@
 .membership-page {
-  margin-top: 70px;
+  margin-top: 50px;
   background: var(--bg-primary);
 }
 
 .membership-hero {
-  background: var(--gradient-primary);
+  background: var(--bg-secondary);
   padding: 120px 0 80px;
   text-align: center;
   color: var(--text-heading);
@@ -19,7 +19,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(217, 114, 50, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(217, 114, 50, 0.15) 0%, transparent 100%);
   z-index: 0;
 }
 
@@ -32,6 +32,7 @@
   font-size: 56px;
   font-weight: 900;
   margin-bottom: 15px;
+  color: var(--accent-primary);
 }
 
 .membership-hero-content p {
@@ -68,7 +69,7 @@
 
 .plan-card.popular {
   border-color: var(--accent-primary);
-  box-shadow: var(--shadow-lg), var(--glow-primary);
+  box-shadow: var(--glow-primary);
   background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
 }
 
@@ -85,7 +86,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: var(--glow-primary);
+ 
 }
 
 .plan-card h3 {
@@ -157,12 +158,12 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  box-shadow: var(--shadow-md);
+  
 }
 
 .plan-btn:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-xl), var(--glow-orange);
+ 
 }
 
 .membership-form-section {
@@ -175,8 +176,8 @@
   background: var(--bg-card);
   padding: 50px;
   border-radius: 20px;
-  box-shadow: var(--shadow-lg);
-  border: 1px solid rgba(217, 114, 50, 0.2);
+ 
+  border: 1px solid rgba(235, 105, 23, 0.2);
 }
 
 .form-header {

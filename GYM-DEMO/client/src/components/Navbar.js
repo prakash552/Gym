@@ -43,7 +43,12 @@ const Navbar = () => {
         <div className="container">
           <div className="nav-wrapper">
             <Link to="/" className="logo">
-              <span className="logo-text">FITGENIX</span>
+             <img
+              src="images/logo.png"
+              className="img-fluid"
+              alt=""
+             />
+             
             </Link>
             
             <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

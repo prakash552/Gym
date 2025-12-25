@@ -26,7 +26,7 @@ const Services = () => {
     {
       title: 'Zumba Classes',
       description: 'Join our high-energy Zumba classes in our vibrant studio. First gym in Santosh Bhavan, Nalasopara to offer Zumba classes.',
-      image: '/images/zumba-studio.png',
+      image: '/images/zumba.jpg',
       features: [
         'Dedicated studio room',
         'High-energy dance workouts',
@@ -39,7 +39,7 @@ const Services = () => {
     {
       title: 'Yoga Sessions',
       description: 'Achieve mind-body balance with our relaxing yoga sessions. Perfect for flexibility, stress relief, and overall wellness.',
-      image: '/images/yoga-session.png',
+      image: '/images/yoga.jpg',
       features: [
         'Mind-body balance',
         'Flexibility training',
@@ -52,7 +52,7 @@ const Services = () => {
     {
       title: 'Strength Training',
       description: 'Build muscle and strength with our comprehensive strength training program using 44+ advanced machines.',
-      image: '/images/strength-training.png',
+      image: '/images/stregth.jpg',
       features: [
         '44+ advanced machines',
         'Dedicated strength zone',
@@ -78,7 +78,7 @@ const Services = () => {
     {
       title: 'Steam Sessions',
       description: 'Rejuvenate and recover with our relaxing steam sessions. Perfect for post-workout recovery and detox.',
-      image: '/images/steam-session.png',
+      image: '/images/steam.jpg',
       features: [
         'Post-workout recovery',
         'Detoxification',

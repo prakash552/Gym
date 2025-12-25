@@ -127,7 +127,7 @@ const Home = () => {
           <div className="gallery-grid" data-aos="fade-up">
             <div className="gallery-item large">
               <img 
-                src="/images/main-training-area.png" 
+                src="/images/team-rabiya.png" 
                 alt="Fitgenix Gym Main Area"
                 onError={(e) => { e.target.src = '/images/hero-background.png'; }}
                 loading="lazy"
@@ -139,7 +139,7 @@ const Home = () => {
             </div>
             <div className="gallery-item">
               <img 
-                src="/images/crossfit-equipment.png" 
+                src="/images/yoga-session.png" 
                 alt="Advanced Equipment"
                 onError={(e) => { e.target.src = '/images/hero-background.png'; }}
                 loading="lazy"
@@ -163,7 +163,7 @@ const Home = () => {
             </div>
             <div className="gallery-item">
               <img 
-                src="/images/yoga-session.png" 
+                src="/images/team-abhishek.png" 
                 alt="Fitness Area"
                 onError={(e) => { e.target.src = '/images/hero-background.png'; }}
                 loading="lazy"
@@ -199,7 +199,7 @@ const Home = () => {
             </div>
             <div className="gallery-item">
               <img 
-                src="/images/steam-session.png" 
+                src="/images/interior.jpg" 
                 alt="Gym Interior"
                 onError={(e) => { e.target.src = '/images/hero-background.png'; }}
                 loading="lazy"
@@ -223,7 +223,7 @@ const Home = () => {
             </div>
             <div className="gallery-item">
               <img 
-                src="/images/additional-facility.png" 
+                  src="/images/steam-session.png" 
                 alt="Additional Facility"
                 onError={(e) => { e.target.src = '/images/hero-background.png'; }}
                 loading="lazy"
