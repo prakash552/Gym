@@ -171,27 +171,31 @@
   .features-grid,
   .services-grid,
   .gallery-grid {
-    gap: 15px;
+    gap: 10px;
   }
 
   .gallery-item {
-    height: 250px;
+    height: 180px;
   }
 
   .gallery-item.large {
-    height: 300px;
+    height: 220px;
+  }
+
+  .cta-section {
+    padding: 60px 0;
   }
 
   .cta-content h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .cta-content p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .equipment-preview-content p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 

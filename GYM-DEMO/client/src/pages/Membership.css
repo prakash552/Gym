@@ -48,7 +48,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .plan-card {
@@ -318,13 +318,39 @@
   .membership-hero-content h1 {
     font-size: 42px;
   }
+  .membership-page{
+    margin-top: 0px;
+  }
+  .membership-hero{
+    padding: 60px 0 10px;
+  }
   
   .plans-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+  }
+  
+  .plan-card {
+    flex: 0 0 280px;
+    scroll-snap-align: start;
+    padding: 10px 8px;
+  }
+  
+  .plan-card h3 {
+    font-size: 15px;
+  }
+  
+  .price {
+    font-size: 24px;
   }
   
   .form-wrapper {
-    padding: 30px 20px;
+    padding: 40px 20px;
   }
   
   .form-header h2 {

@@ -176,9 +176,11 @@ background:transparent;
 /* Responsive */
 @media (max-width: 968px) {
   .hero-text {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
     gap: 30px;
+    justify-content: center;
+    margin-top: -200px;
   }
   
   .hero-image {
